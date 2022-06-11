@@ -59,6 +59,8 @@ const order = () => {
             })
         } else {
             // goto order
+            user.cart = [];
+            router.push("/order");
         }
     });
 }
